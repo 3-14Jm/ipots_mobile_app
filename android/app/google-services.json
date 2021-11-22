@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971496389952",
+    "project_id": "ipots666",
+    "storage_bucket": "ipots666.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971496389952:android:324f9d5720a061ecab4ea5",
+        "android_client_info": {
+          "package_name": "com.mkruchok.ipots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971496389952-pfqk57go63j5koj4e0s2foctrtostmk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ-aW94YeWlaMCITaLr4KuVEsX_8gBd74"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971496389952-pfqk57go63j5koj4e0s2foctrtostmk4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
