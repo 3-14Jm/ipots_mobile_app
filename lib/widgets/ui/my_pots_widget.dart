@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ipots/widgets/ui/pots/pots_list_item_widget.dart';
 
 class MyPotsScreen extends StatefulWidget {
   const MyPotsScreen({Key? key}) : super(key: key);
@@ -14,33 +15,19 @@ class _MyPotsScreenState extends State<MyPotsScreen> {
   Widget build(BuildContext context) {
     return
       Container(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height - 120,
         color: const Color(0xFFDEE0E2),
         padding: const EdgeInsets.all(16),
         child: Column(
-          children: [
+          children: const [
             Expanded(
               child: SingleChildScrollView(
-                child: Column(
-                children: [
-                  Center(
-                    child: Container(
-                      width: 280,
-                      decoration: const BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.all(Radius.circular(24)),
-                      ),
-                      child: const TextField(
-                        decoration: InputDecoration(
-                          prefixIcon: Icon(Icons.search),
-                            hintText: 'Search',
-                            hintStyle: TextStyle(fontSize: 18),
-                            border: InputBorder.none),
-                      ),
-                    ),
-                  ),
-                ],
-    ),
+                  child: PotsListItemWidget()
               ),
+            ),
+            SizedBox(
+              height: 160,
             ),
           ],
         ),

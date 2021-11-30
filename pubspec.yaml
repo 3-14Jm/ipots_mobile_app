@@ -1,7 +1,7 @@
 name: ipots
 description: iPots - це проєкт для моніторингу та налаштування вазонів iPots з будь-якого місця.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-version: 1.0.0+1
+version: 1.1.0
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -64,6 +64,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  json_serializable: 6.0.1
+  build_runner: 2.1.4
 
   # Code convention
   flutter_lints: ^1.0.0
